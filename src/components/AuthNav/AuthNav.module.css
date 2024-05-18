@@ -1,6 +1,5 @@
-
-.nav{
-    padding-left: 40px;
+.wrapper {
+    padding-right: 40px;
     display: flex;
     flex-direction: row;
     gap: 15px;

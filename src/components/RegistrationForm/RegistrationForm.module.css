@@ -10,18 +10,16 @@
     color: rgb(21, 28, 94);
     gap: 10px;
 }
-
-.btn {
-    width: 100px;
-    height: 40px;
-    transition: 0.5s;
-    border-radius: 10px;
-    border: 2px solid rgb(89, 89, 164);
-    color: rgb(21, 28, 94);
-    background-color: inherit;
+.btn{
+width: 100px;
+height: 40px;
+transition: 0.5s;
+border-radius: 10px;
+border: 2px solid rgb(89, 89, 164);
+color: rgb(21, 28, 94);
+background-color: inherit;
 }
-
-.input {
+.input{
     height: 35px;
     border-radius: 10px;
     border: 2px solid rgb(89, 89, 164);

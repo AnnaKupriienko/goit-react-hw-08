@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 15px;
+    border: 2px solid rgb(3, 12, 22);
+    border-radius: 10px;
+    width: 340px;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.icon{
+    height:20px;
+    width: 20px;
+    color: rgb(3, 12, 22);
+}
+.btnDelete{
+width: 100px;  
+height: 40px;  
+align-items: center;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 15px;
+transition: 0.5s;
+border-radius: 10px ;
+border: 2px solid rgb(68, 68, 144);
+color: rgb(3, 12, 22);
+}
+.btnDelete:hover
+{
+    box-shadow: 0 0 0 2px white, 0 0 0 4px rgb(68, 68, 144);
+}
+.text{
+color:rgb(3, 12, 22);
+display: flex;
+gap: 10px;
+}

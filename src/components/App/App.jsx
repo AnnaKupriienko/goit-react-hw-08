@@ -6,8 +6,8 @@ import Error from "../Error/Error"
 import css from "./App.module.css"
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contactsOps"
-import {selectLoading,selectError} from "../../redux/contactsSlice"
+import { fetchContacts } from "../../redux/contacts/operations"
+import {selectLoading,selectError} from "../../redux/contacts/selectors"
 
 export default function App() { 
     const dispatch = useDispatch();
